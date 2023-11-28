@@ -40,7 +40,7 @@ const NewProject = ({ onAdd, onCancel }) => {
           Please make sure you provide a valid value for every input.
         </p>
       </Modal>
-      <div className="w-[35rem] mt-16">
+      <div className="w-[35rem] mt-7">
         <div>
           <InputBox type="text" label="Title" ref={title}></InputBox>
           <InputBox label="Description" textArea ref={description}></InputBox>

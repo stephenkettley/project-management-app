@@ -23,7 +23,7 @@ const NewTask = ({ onAdd }) => {
       />
       <button
         onClick={handleClick}
-        className="text-stone-600 hover:text-stone-950"
+        className="text-stone-600 hover:bg-stone-200 hover:text-stone-950 w-100 px-2 py-1 rounded-md bg-stone-100 outline-none"
       >
         Add Task
       </button>
